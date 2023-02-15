@@ -1,0 +1,50 @@
+.mainComponent{
+    padding: 3rem;
+    background-color: rgb(232, 232, 232);
+    
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    outline: none;
+}
+.inputField{
+    height: 5rem;
+    width: 19.6rem;
+    direction: rtl;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    caret-color: transparent;
+}
+
+.button{
+    font-size: 1.3rem;
+    width: 5rem;
+    height: 5rem;
+    outline: 0.01rem solid rgb(120, 118, 118);
+    border: none;
+    color: grey;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(208, 208, 208);
+}
+#clearBtn {
+    width: 20rem;
+    height: 4rem;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    background-color: silver;
+}
+#operatorButton{
+    background-color: #fc9425;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    outline: 0.01rem solid rgb(120, 118, 118);
+}
